@@ -21,7 +21,7 @@ Widget::Widget(QWidget *parent) :
     db.setHostName("127.0.0.1");
     db.setDatabaseName("qt_test");  // 已有数据库名称
     db.setUserName("root");
-    db.setPassword("hao-2851");
+    db.setPassword("********");
 
     if(!db.open()){
         QMessageBox::warning(this, "警告", "数据库打开失败");
